@@ -1,7 +1,13 @@
-# TITLE 
+# Project for extending the FLINT framework to handle Pool Cohorts (Nested Pools)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 
-Text 
+## About Cohorts (Nested Pools)
+
+The FLINT framework is designed to run Carbon Simulations both at single point (non-spatial) and at large scale (i.e. National level Spatial simulations). The results from these simulations are generally carbon values - both Stock and Movement (fluxes).
+
+Adding the ability to track a Pool by a dynamic list of Cohorts (or Nested Pools) will add significant value to the results generated. For example, tracking tree species information in decomposition. Rather than the single pool there would be a dynamic list of decomposition applied per tree species the system processes. This would allow for different decomposition rates to be applied to carbon transfers per tree species defined and the apportioned carbon stock recorded by the FLINT. Giving more control on the Simulation and more accurate results.
+ 
+Framework extensions will need to be backward compatible, i.e. allowing existing systems to continue to work as intended.
 
 ## How to Get Involved?  
 
